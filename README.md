@@ -22,10 +22,42 @@ Close the Simulation Once done, by going to Simulation → "Close Simulation
 
 Input/Output Signal Diagram:
 
+<img width="1920" height="1080" alt="Screenshot 2025-09-02 122647" src="https://github.com/user-attachments/assets/ceb99f61-dd30-497a-8dbc-4f6ef2dddbc3" />
+
+
 RTL Code:
 
+
 TestBench:
+```
+module seven_Segment_tb;
+
+    reg  [3:0] bcd;        
+    wire [6:0] seg;        
+   
+    seven_Segment dut (
+        .bcd(bcd),
+        .seg(seg)
+    );
+
+    initial begin
+        bcd = 4'b0000; #10;
+        bcd = 4'b0001; #10;
+        bcd = 4'b0010; #10;
+        bcd = 4'b0011; #10;
+        bcd = 4'b0100; #10;
+        bcd = 4'b0101; #10;
+        bcd = 4'b0110; #10;
+        bcd = 4'b0111; #10;
+        bcd = 4'b1000; #10;
+        bcd = 4'b1001; #10;
+end
+endmodule
+```
 
 Output waveform:
+<img width="1920" height="1080" alt="Screenshot 2025-09-02 123208" src="https://github.com/user-attachments/assets/35764b87-c48b-48a6-b596-d2c77be4cb90" />
+
 
 Conclusion:
+
