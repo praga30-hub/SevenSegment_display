@@ -22,7 +22,8 @@ Close the Simulation Once done, by going to Simulation → "Close Simulation
 
 Input/Output Signal Diagram:
 
-<img width="1920" height="1080" alt="Screenshot 2025-09-02 122647" src="https://github.com/user-attachments/assets/ceb99f61-dd30-497a-8dbc-4f6ef2dddbc3" />
+<img width="559" height="961" alt="image" src="https://github.com/user-attachments/assets/38a1aae2-2e6d-4173-9f63-9c7c19c52bcf" />
+
 
 
 RTL Code:
@@ -78,7 +79,8 @@ endmodule
 ```
 
 Output waveform:
-<img width="1920" height="1080" alt="Screenshot 2025-09-02 123208" src="https://github.com/user-attachments/assets/35764b87-c48b-48a6-b596-d2c77be4cb90" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5680a273-688d-425b-94a5-f584a922c0d1" />
+
 
 
 Conclusion:
